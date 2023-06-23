@@ -40,6 +40,15 @@
         width: 250px;
     }
 }
+@media screen and (max-width:436px){
+    #container{
+        width: 430px;
+    }
+    #screen{
+        display: inline-block;
+        width: 250px;
+    }
+}
 h1{
     text-align: center;
 }
@@ -77,4 +86,3 @@ button{
 button:hover{
     cursor: pointer;
 }
-
