@@ -32,7 +32,7 @@ for (let button of buttons) {
 
     })
 
-    inp.addEventListener('keypress',function(e){
+    document.addEventListener('keypress',function(e){
         if(e.key === 'Enter'){
             try {
                 inp.value = eval(inp.value);
